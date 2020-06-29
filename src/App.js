@@ -1,41 +1,49 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import Main from "./components/main";
-import { Link } from 'react-router-dom';
 
-class App extends Component  {
-  render () {
+import React, { Component } from "react";
+// import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Section from "./components/Section";
+import dummyText from "./components/DummyText";
+
+class App extends Component {
+  render() {
     return (
-      <div style={{height: '300px', position: 'relative'}}>
-      <Layout fixedHeader>
-          <Header title={<span><span style={{ color: '#ddd' }}></span><strong>Portfolio Page</strong></span>}>
-              <Navigation>
-                  <Link to="/">Home</Link>
-                  <Link to="/resume">Resume</Link>
-                  <Link to="/aboutme">About me</Link>
-                  <Link to="/projects">Projects</Link>
-                  <Link to="/contact">Contact</Link>
-              </Navigation>
-          </Header>
-          <Drawer title="Title">
-              <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-              </Navigation>
-          </Drawer>
-          <Content>
-            <div className="page-content" />
-            <Main />
-          </Content>
-      </Layout>
-  </div>
+      <div className="App">
+        <Navbar />
+        <Section
+          title="Section 1"
+          subtitle={dummyText}
+          dark={true}
+          id="section1"
+        />
+        <Section
+          title="Section 2"
+          subtitle={dummyText}
+          dark={false}
+          id="section2"
+        />
+        <Section
+          title="Section 3"
+          subtitle={dummyText}
+          dark={true}
+          id="section3"
+        />
+        <Section
+          title="Section 4"
+          subtitle={dummyText}
+          dark={false}
+          id="section4"
+        />
+        <Section
+          title="Section 5"
+          subtitle={dummyText}
+          dark={true}
+          id="section5"
+        />
+      </div>
     );
   }
 }
-  
 
 export default App;
