@@ -18,66 +18,67 @@ export default class Navbar extends Component {
             onClick={this.scrollToTop}
           />
           <ul className="nav-items">
+             
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section1"
+                to="main"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 1
+                Main
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section2"
+                to="about"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                About
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section3"
+                to="projects"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 3
+                Projects
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section4"
+                to="contact"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 4
+                Contact
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section5"
+                to="footer"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 5
+                Social
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
