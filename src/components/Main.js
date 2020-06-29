@@ -8,7 +8,7 @@ class Main extends Component {
       <div id="main" className='main-section'>
         <div className="col-xs-12 center-block text-center">
           <div className="py-3"><h2>Andrew Thomas</h2></div>
-            <img src={avatar} alt="" />
+            <img src={avatar} alt="avatar" />
           <div className="py-3"><h3>Full Stack Web Developer</h3></div>
         </div>
       </div>

@@ -74,6 +74,14 @@
   background-color: whitesmoke;
 }
 
+.about-section .item-inner {
+  padding-bottom: 7%;
+}
+
+.about-section .item-icon {
+  font-size: 40px;
+}
+
 .projects-section {
   height: 100vh;
   background-color: #44A08D;
