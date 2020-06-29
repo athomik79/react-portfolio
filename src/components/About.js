@@ -14,7 +14,7 @@ class About extends Component {
       <section className="about-section p-3 p-lg-5" id="about">
         <div className="container py-3">
           <h2 className="section-title mb-3">Experience</h2>
-          <div className="section-intro mb-5">Sustainable banh mi street art semiotics health goth vice. Af deep v gluten-free neutra, etsy vice pabst subway tile prism meh hot chicken unicorn kogi austin <a href="resume.html">online resume</a> and <a href="portfolio.html">project portfolio</a>.</div>
+          <div className="section-intro mb-5">Sustainable banh mi street art semiotics health goth vice. Af deep v gluten-free neutra, etsy vice pabst subway tile prism meh hot chicken unicorn kogi austin <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank">online resume</a> and <a href="https://github.com/athomik79" rel="noopener noreferrer" target="_blank">project portfolio</a>.</div>
           <div className="row">
             <div className="item col-6 col-lg-4">
               <div className="item-inner">

@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import { FaRegCopyright } from "react-icons/fa";
 
 class Footer extends Component {
   render() {
-    return(
-      <div className='footer-section' id='footer'>
-        <h1>Footer</h1>
-      </div>
-    )
+    return (
+
+      <footer className="footer text-center py-4">
+        <h5><FaRegCopyright/> Andrew Thomas 2020</h5>
+      </footer>
+    );
   }
-}
+};
 
 export default Footer;
