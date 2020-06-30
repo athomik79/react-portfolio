@@ -53,6 +53,4 @@ class Contact extends Component {
   }
 };
 
-// Comment to change remote file
-
 export default Contact;
