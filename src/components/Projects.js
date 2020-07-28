@@ -14,7 +14,7 @@ class Projects extends Component {
               Featured Projects
             </h2>
             <div className='row'>
-              <div className='item col-6 col-lg-4 col-md-3 mb-5'>
+              <div className='item col-6 col-lg-4'>
                 <div className='card project-card'>
                   <div className='row no-gutters'>
                     <div className='col-lg-4 card-img-holder'>
