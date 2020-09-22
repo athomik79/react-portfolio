@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 
 // app.use(sslRedirect());
-app.use(enforce.HTTPS());
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
