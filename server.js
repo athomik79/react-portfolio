@@ -10,6 +10,9 @@ const nodemailer = require('nodemailer');
 const PORT = process.env.PORT || 5000;
 const app = express();
 
+// add middleware
+app.use(express.static('public'));
+
 // app.use(sslRedirect());
 app.use(enforce.HTTPS({ trustProtoHeader: true }));
 app.use(bodyParser.json());
@@ -20,9 +23,9 @@ app.use(bodyParser.json());
 //   });
 // });
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+// app.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'public', 'index.html'));
+// });
 
 http.createServer(app).listen(PORT, function (req, res) {
   console.log(`Listening on port ${PORT}`);
