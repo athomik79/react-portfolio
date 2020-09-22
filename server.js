@@ -20,6 +20,10 @@ app.use(bodyParser.json());
 //   });
 // });
 
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 http.createServer(app).listen(PORT, function (req, res) {
   console.log(`Listening on port ${PORT}`);
 });
