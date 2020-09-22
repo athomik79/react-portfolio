@@ -14,11 +14,11 @@ const app = express();
 app.use(enforce.HTTPS({ trustProtoHeader: true }));
 app.use(bodyParser.json());
 
-app.get('/', function (req, res) {
-  res.send({
-    message: 'Default route for email',
-  });
-});
+// app.get('/', function (req, res) {
+//   res.send({
+//     message: 'Default route for email',
+//   });
+// });
 
 http.createServer(app).listen(PORT, function (req, res) {
   console.log(`Listening on port ${PORT}`);
