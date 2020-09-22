@@ -68,7 +68,7 @@ class Contact extends Component {
               id='contact-form'
               className='contact-form col-lg-8 mx-lg-auto'
               method='post'
-              action
+              action='true'
             >
               <h3 className='text-center mb-3'>Get In Touch</h3>
               <div className='form-row'>
