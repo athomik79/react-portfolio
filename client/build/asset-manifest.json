@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dff3c982.chunk.css",
+    "main.js": "/static/js/main.c1003ae2.chunk.js",
+    "main.js.map": "/static/js/main.c1003ae2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/css/2.43079d8c.chunk.css": "/static/css/2.43079d8c.chunk.css",
+    "static/js/2.a79f829a.chunk.js": "/static/js/2.a79f829a.chunk.js",
+    "static/js/2.a79f829a.chunk.js.map": "/static/js/2.a79f829a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1a7c037aeebd075b9593be2ff72629a3.js": "/precache-manifest.1a7c037aeebd075b9593be2ff72629a3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.43079d8c.chunk.css.map": "/static/css/2.43079d8c.chunk.css.map",
+    "static/css/main.dff3c982.chunk.css.map": "/static/css/main.dff3c982.chunk.css.map",
+    "static/js/2.a79f829a.chunk.js.LICENSE.txt": "/static/js/2.a79f829a.chunk.js.LICENSE.txt",
+    "static/media/green_mountain_logo_512.png": "/static/media/green_mountain_logo_512.0b54603f.png",
+    "static/media/logo.png": "/static/media/logo.bbfee0b6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/css/2.43079d8c.chunk.css",
+    "static/js/2.a79f829a.chunk.js",
+    "static/css/main.dff3c982.chunk.css",
+    "static/js/main.c1003ae2.chunk.js"
+  ]
+}
