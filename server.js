@@ -12,6 +12,9 @@ const app = express();
 
 // add middleware
 app.use(express.static('public'));
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+}
 
 // app.use(sslRedirect());
 app.use(enforce.HTTPS({ trustProtoHeader: true }));
