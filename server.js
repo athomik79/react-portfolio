@@ -3,7 +3,7 @@ const express = require('express');
 const http = require('http');
 const enforce = require('express-sslify');
 const bodyParser = require('body-parser');
-const nodemailer = require('nodemailer');
+// const nodemailer = require('nodemailer');
 // const { google } = require('googleapis');
 // const OAuth2 = google.auth.OAuth2;
 
